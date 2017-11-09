@@ -8,7 +8,7 @@ function pres(n){
 	num++;
 	document.getElementById("dot"+ (num)).style.backgroundColor="white";
 	if(pin=='1,8,6,4'){per=0};
-	if(pin=='0,1,7,6'){per=1};
+	if(pin=='8,1,7,6'){per=1};
 	if(pin=='1,3,4,7'){per=2};
 	if(per!=null){
 		alert("Welcome "+persona[per]);
