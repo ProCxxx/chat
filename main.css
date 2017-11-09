@@ -1,0 +1,168 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: red;
+	background-image: url("img/red.jpg");
+	background-size: 100vw 100vh;
+}
+#login{
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+#title {
+	font-size: 7vh;
+	font-weight: 100;
+	color: black;
+	position: fixed;
+	top: 5vh;
+	left: 0;
+	width: 100vw;
+	height: 10vh;
+}
+#dot1 {
+	position: fixed;
+	left: 18vw;
+	top: 20vh;
+	border: 1vw solid black;
+	border-radius: 50%;
+	width: 2vw;
+	height: 2vw;
+	background-color: black;
+}
+#dot2 {
+	position: fixed;
+	left: 38vw;
+	top: 20vh;
+	border: 1vw solid black;
+	border-radius: 50%;
+	width: 2vw;
+	height: 2vw;
+	background-color: black;
+}
+#dot3 {
+	position: fixed;
+	left: 58vw;
+	top: 20vh;
+	border: 1vw solid black;
+	border-radius: 50%;
+	width: 2vw;
+	height: 2vw;
+	background-color: black;
+}
+#dot4 {
+	position: fixed;
+	left: 78vw;
+	top: 20vh;
+	border: 1vw solid black;
+	border-radius: 50%;
+	width: 2vw;
+	height: 2vw;
+	background-color: black;
+}
+#num1{
+	position: fixed;
+	left: 17vw;
+	top: 35vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num2{
+	position: fixed;
+	left: 42.5vw;
+	top: 35vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num3{
+	position: fixed;
+	left: 67.5vw;
+	top: 35vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num4{
+	position: fixed;
+	left: 17vw;
+	top: 50vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num5{
+	position: fixed;
+	left: 42.5vw;
+	top: 50vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num6{
+	position: fixed;
+	left: 67.5vw;
+	top: 50vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num7{
+	position: fixed;
+	left: 17vw;
+	top: 65vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num8{
+	position: fixed;
+	left: 42.5vw;
+	top: 65vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#num9{
+	position: fixed;
+	left: 67.5vw;
+	top: 65vh;
+	width: 15vw;
+	height: 15vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	background-color: black;
+}
+#check {
+	position: fixed;
+	left: 30vw;
+	top: 82vh;
+	width:40vw;
+	height: 20vw;
+	border: 1vw solid black;
+	border-radius: 50%;
+	font-size: 8vw;
+}
