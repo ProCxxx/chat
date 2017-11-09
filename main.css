@@ -7,8 +7,11 @@ body {
 	background-image: url("img/red.jpg");
 	background-size: 100vw 100vh;
 }
+button:focus {
+	outline:0;
+}
 #login{
-	display: block;
+	display: none;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -68,7 +71,7 @@ body {
 }
 #num1{
 	position: fixed;
-	left: 17vw;
+	left: 15.7vw;
 	top: 35vh;
 	width: 15vw;
 	height: 15vw;
@@ -98,7 +101,7 @@ body {
 }
 #num4{
 	position: fixed;
-	left: 17vw;
+	left: 15.7vw;
 	top: 50vh;
 	width: 15vw;
 	height: 15vw;
@@ -128,7 +131,7 @@ body {
 }
 #num7{
 	position: fixed;
-	left: 17vw;
+	left: 15.7vw;
 	top: 65vh;
 	width: 15vw;
 	height: 15vw;
@@ -156,13 +159,56 @@ body {
 	border-radius: 50%;
 	background-color: black;
 }
-#check {
+#reset {
 	position: fixed;
-	left: 30vw;
+	left: 15vw;
 	top: 82vh;
-	width:40vw;
+	width:70vw;
 	height: 20vw;
 	border: 1vw solid black;
-	border-radius: 50%;
+	border-radius: 100px;
 	font-size: 8vw;
+}
+#chat {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+#title2{
+	font-size: 7vh;
+	font-weight: 100;
+	color: black;
+	position: fixed;
+	top: 5vh;
+	left: 0;
+	width: 100vw;
+	height: 10vh;
+}
+#btn-chat1{
+	position: fixed;
+	top: 30vh;
+	left: 10vw;
+	width: 80vw;
+	height: 20vh;
+	border: 0px solid transparent;
+	border-radius: 100px;
+	background-color: lightgreen;
+	color:red;
+	font-size: 5vh;
+}
+#btn-chat2{
+	position: fixed;
+	top: 60vh;
+	left: 10vw;
+	width: 80vw;
+	height: 20vh;
+	border: 0px solid transparent;
+	border-radius: 100px;
+	background-color: lightgreen;
+	color:red;
+	font-size: 5vh;
 }

@@ -25,3 +25,14 @@ function pres(n){
 		}
 	}
 }
+function goto(des){
+	document.getElementById("login").style.display="none";
+	document.getElementById("chat").style.display="block";
+}
+function reset(des){
+	pin=[];
+	num=0;
+	for(var i=1;i<5;i++){
+		document.getElementById("dot"+ (i)).style.backgroundColor="black";
+	}
+}
