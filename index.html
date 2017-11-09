@@ -31,8 +31,26 @@
 
 	<div id="chat">
 		<p id="title2">Select chat type</p>
-		<button id="btn-chat1">Normal</button>
-		<button id="btn-chat2">Enctypted</button>
+		<button id="btn-chat1" onclick="normal();">Normal</button>
+		<button id="btn-chat2" onclick="encrypt();">Enctypted</button>
 	</div>
+
+	<div id="normal">
+		<p id="title3">Normal chat</p>
+		<input type="text" id="nmsg" placeholder="Message"/>
+		<button id="nsend" onclick="nsend();">Send</button>
+		<textarea id="nread" readonly ></textarea>
+		<button id="back" onclick="bek('normal');">Back</button>
+	</div>
+
+	<div id="encrypt">
+		<p id="title4">Encrypted chat</p>
+		<input type="text" id="emsg" placeholder="Message"/>
+		<button id="esend" onclick="esend();">Send</button>
+		<textarea id="eread" readonly ></textarea>
+		<button id="back" onclick="bek('encrypt');">Back</button>
+
+	</div>
+
 </body>
 </html>

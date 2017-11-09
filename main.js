@@ -36,3 +36,12 @@ function reset(des){
 		document.getElementById("dot"+ (i)).style.backgroundColor="black";
 	}
 }
+function normal(){
+	document.getElementById("normal").style.display="block";
+	document.getElementById("chat").style.display="none";
+}
+
+function encrypt(){
+	document.getElementById("encrypt").style.display="block";
+	document.getElementById("chat").style.display="none";
+}

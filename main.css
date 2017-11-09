@@ -20,7 +20,7 @@ button:focus {
 	text-align: center;
 }
 #title {
-	font-size: 7vh;
+	font-size: 5vh;
 	font-weight: 100;
 	color: black;
 	position: fixed;
@@ -211,4 +211,92 @@ button:focus {
 	background-color: lightgreen;
 	color:red;
 	font-size: 5vh;
+}
+#normal{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vw;
+	text-align: center;
+}
+#title3 {
+	position: fixed;
+	top: 5vh;
+	width: 100vw;
+	height: 10vh;
+	font-size: 5vh;
+}
+#nmsg{
+	position: fixed;
+	top: 20vh;
+	left: 10vw;
+	width: 60vw;
+	height: 10vh;
+	font-size: 5vh;
+}
+#nsend{
+	position: fixed;
+	left: 70vw;
+	top: 20vh;
+	width: 20vw;
+	height: 10vh;
+}
+#nread{
+	position: fixed;
+	top: 35vh;
+	left: 10vw;
+	min-width: 80vw;
+	max-width: 80vw;
+	min-height: 45vh;
+	max-height: 45vh;
+}
+#back {
+	position: fixed;
+	top: 85vh;
+	left: 10vw;
+	width: 80vw;
+	height: 10vh;
+
+}
+#encrypt {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vw;
+	text-align: center;
+}
+#title4 {
+	position: fixed;
+	top: 5vh;
+	width: 100vw;
+	height: 10vh;
+	font-size: 5vh;
+}
+#emsg{
+	position: fixed;
+	top: 20vh;
+	left: 10vw;
+	width: 60vw;
+	height: 10vh;
+	font-size: 5vh;
+}
+#esend{
+	position: fixed;
+	left: 70vw;
+	top: 20vh;
+	width: 20vw;
+	height: 10vh;
+}
+#eread{
+	position: fixed;
+	top: 35vh;
+	left: 10vw;
+	min-width: 80vw;
+	max-width: 80vw;
+	min-height: 45vh;
+	max-height: 45vh;
 }
