@@ -11,7 +11,7 @@ button:focus {
 	outline:0;
 }
 #login{
-	display: none;
+	display: block;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -170,7 +170,7 @@ button:focus {
 	font-size: 8vw;
 }
 #chat {
-	display: block;
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
