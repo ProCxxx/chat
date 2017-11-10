@@ -23,10 +23,13 @@
 	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
 
 	<plugin name="cordova-plugin-exitapp" source="npm" />
+	<plugin name="org.apache.cordova.dialogs" source="npm" />
 
 
 
-	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<plugin name="cordova-plugin-whitelist" source="npm"/>
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
 	<access origin="*" />
 
 	<plugin name="cordova-plugin-inappbrowser" source="npm" />
