@@ -23,7 +23,7 @@
 	<plugin name="cordova-plugin-crosswalk-webview" source="npm" />
 
 	<plugin name="cordova-plugin-exitapp" source="npm" />
-	<plugin name="org.apache.cordova.dialogs" source="npm" />
+	
 
 
 
