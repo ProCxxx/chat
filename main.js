@@ -45,3 +45,7 @@ function encrypt(){
 	document.getElementById("encrypt").style.display="block";
 	document.getElementById("chat").style.display="none";
 }
+function bek(des){
+	document.getElementById(des).style.display='none';
+	document.getElementById("chat").style.display='block';
+}
